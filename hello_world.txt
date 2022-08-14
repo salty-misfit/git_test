@@ -1,0 +1,9 @@
+I opened this file with code . 
+
+I needed to use 
+
+vi ~/.bashrc
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+esc
+:qw
+source ~/.bashrc
